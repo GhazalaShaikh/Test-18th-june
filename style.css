@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
+
+.container {
+    
+     display: flex;
+     flex-direction: row;
+     width: 1440px;
+     height: 1024px;
+     
+     background: #CECCCC;
+}
+h1 {
+    font-weight: 400;
+font-size: 64px;
+line-height: 76px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: 'Carrois Gothic SC';
+} 
+.box {
+    width: 650px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin-left: 54px;
+
+
+
+}
+ol {
+    padding: 0
+}
+.box ol li{
+    width: 650px;
+    font-family: 'Carrois Gothic SC';
+    font-size: 40px;
+    color: #000000;
+    list-style: none;
+    padding: 0;
+}
+.box ol li span {
+    margin-right: 15px;
+}
+.box ol li:nth-child(odd) {
+    background-color: #EDEDED;;
+}
+.box ol li:nth-child(even) {
+    background: #DEDEDE;
+}
+button {
+    width: 257px;
+
+top: 849px;
+margin-left: 447px;
+font-family: 'Carrois Gothic SC';
+font-size: 36px;
+background: #898989;
+color: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border: none;
+}
+.random-img {
+    
+    background: #898989;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   display: flex;
+   padding: 244px;
+   color: #000000;
+   margin:auto;
+   margin-top: 68px;
+   margin-left: 32px;
+   
+
+}
